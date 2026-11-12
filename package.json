@@ -1,0 +1,20 @@
+{
+  "name": "caroukit",
+  "version": "0.1.0",
+  "description": "Open-source carousel generator. Turn your content into PNG slides and PDF with local rendering, a CLI, and Claude Code integration.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@resvg/resvg-wasm": "2.6.2",
+    "satori": "0.57.2"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "typescript": "5.9.3"
+  }
+}
