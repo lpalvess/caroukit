@@ -1,0 +1,38 @@
+meta:
+  title: "CarouKit"
+nodes:
+  - id: preset
+    label: "Preset de saída\nCLI / dimensões"
+  - id: source
+    label: "Conteúdo preparado\npelo usuário"
+  - id: author
+    label: "Você ou agente\nexterno opcional"
+  - id: slides
+    label: "slides.json\nconteúdo + tema"
+  - id: validate
+    label: "validate\nestrutura, limites\ne regras técnicas"
+  - id: fail
+    label: "Entrada inválida:\nreprova, sem PDF"
+  - id: render
+    label: "render\nSatori (SVG)\nresvg (PNG)"
+  - id: pdf
+    label: "pdf\nmonta o carrossel"
+  - id: out
+    label: "out/\nPNGs + carousel.pdf"
+edges:
+  - from: preset
+    to: validate
+  - from: source
+    to: author
+  - from: author
+    to: slides
+  - from: slides
+    to: validate
+  - from: validate
+    to: fail
+  - from: validate
+    to: render
+  - from: render
+    to: pdf
+  - from: pdf
+    to: out

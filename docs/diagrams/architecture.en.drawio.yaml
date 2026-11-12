@@ -1,0 +1,38 @@
+meta:
+  title: "CarouKit"
+nodes:
+  - id: preset
+    label: "Output preset\nCLI / dimensions"
+  - id: source
+    label: "User-provided\nprepared content"
+  - id: author
+    label: "You or an optional\nexternal agent"
+  - id: slides
+    label: "slides.json\ncontent + theme"
+  - id: validate
+    label: "validate\nstructure, limits\nand technical rules"
+  - id: fail
+    label: "Invalid input:\nrejected, no PDF"
+  - id: render
+    label: "render\nSatori (SVG)\nresvg (PNG)"
+  - id: pdf
+    label: "pdf\nbuilds the carousel"
+  - id: out
+    label: "out/\nPNGs + carousel.pdf"
+edges:
+  - from: preset
+    to: validate
+  - from: source
+    to: author
+  - from: author
+    to: slides
+  - from: slides
+    to: validate
+  - from: validate
+    to: fail
+  - from: validate
+    to: render
+  - from: render
+    to: pdf
+  - from: pdf
+    to: out

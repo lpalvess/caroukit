@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "theme": "dark",
+    "accent": "#57D6C7"
+  },
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Conheça o\nCarouKit",
+      "highlight": "CarouKit"
+    },
+    {
+      "type": "text",
+      "title": "Conteúdo em carrosséis",
+      "text": "Você prepara o conteúdo. O CarouKit organiza os slides e gera as imagens e o PDF para compartilhar."
+    },
+    {
+      "type": "number",
+      "value": "6",
+      "label": "tipos de slide para organizar seu conteúdo"
+    },
+    {
+      "type": "list",
+      "title": "Escolha a saída",
+      "items": [
+        "Imagens para carrosséis e fotos",
+        "PDF para documentos",
+        "Dimensões genéricas configuráveis"
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Renderização local",
+      "text": "A CLI valida e renderiza em container sem rede. Instalação e agentes externos têm condições de rede diferentes."
+    },
+    {
+      "type": "cta",
+      "text": "Gere, confira e compartilhe",
+      "handle": "CarouKit",
+      "source": "Apresentação de exemplo do CarouKit"
+    }
+  ]
+}

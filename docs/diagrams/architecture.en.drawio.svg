@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000">
+<rect width="1440" height="1000" fill="white"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#1e1e1e"/></marker></defs>
+<rect x="40" y="40" width="1000" height="420" rx="12" fill="#dbe4ff" fill-opacity=".35" stroke="#4c6ef5" stroke-dasharray="6 4"/>
+<text x="60" y="72" text-anchor="start" font-family="Inter" font-size="20" fill="#1e1e1e">CarouKit / local preparation / optional agent</text>
+<rect x="40" y="520" width="1000" height="440" rx="12" fill="#d3f9d8" fill-opacity=".35" stroke="#2f9e44" stroke-dasharray="6 4"/>
+<text x="60" y="940" text-anchor="start" font-family="Inter" font-size="20" fill="#1e1e1e">Container with no network (--network none, read-only)</text>
+<rect x="1060" y="700" width="340" height="260" rx="12" fill="#c5f6fa" fill-opacity=".35" stroke="#0c8599" stroke-dasharray="6 4"/>
+<text x="1080" y="940" text-anchor="start" font-family="Inter" font-size="20" fill="#1e1e1e">Writable output folder</text>
+<rect x="740" y="300" width="260" height="100" rx="10" fill="#96f2d7" stroke="#1e1e1e" stroke-width="2"/>
+<text x="870.0" y="344.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">Output preset</text>
+<text x="870.0" y="369.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">CLI / dimensions</text>
+<rect x="80" y="100" width="240" height="100" rx="10" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="200.0" y="144.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">User-provided</text>
+<text x="200.0" y="169.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">prepared content</text>
+<rect x="420" y="100" width="240" height="100" rx="10" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="540.0" y="144.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">You or an optional</text>
+<text x="540.0" y="169.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">external agent</text>
+<rect x="420" y="300" width="300" height="100" rx="10" fill="#ffd43b" stroke="#1e1e1e" stroke-width="2"/>
+<text x="570.0" y="344.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">slides.json</text>
+<text x="570.0" y="369.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">content + theme</text>
+<rect x="240" y="600" width="660" height="100" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="570.0" y="632.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">validate</text>
+<text x="570.0" y="657.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">structure, limits</text>
+<text x="570.0" y="682.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">and technical rules</text>
+<rect x="80" y="780" width="260" height="90" rx="10" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+<text x="210.0" y="819.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">Invalid input:</text>
+<text x="210.0" y="844.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">rejected, no PDF</text>
+<rect x="420" y="780" width="240" height="100" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="540.0" y="812.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">render</text>
+<text x="540.0" y="837.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">Satori (SVG)</text>
+<text x="540.0" y="862.0" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">resvg (PNG)</text>
+<rect x="740" y="780" width="240" height="100" rx="10" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="860.0" y="824.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">pdf</text>
+<text x="860.0" y="849.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">builds the carousel</text>
+<rect x="1100" y="780" width="260" height="100" rx="10" fill="#96f2d7" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1230.0" y="824.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">out/</text>
+<text x="1230.0" y="849.5" text-anchor="middle" font-family="Inter" font-size="20" fill="#1e1e1e">PNGs + carousel.pdf</text>
+<path d="M870,400 L870,600" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<path d="M320,150 L420,150" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<path d="M540,200 L570,300" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<path d="M570,400 L570,600" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<path d="M300,700 L210,780" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="6 4"/>
+<text x="285.0" y="740.0" text-anchor="middle" font-family="Inter" font-size="16" fill="#1e1e1e">error</text>
+<path d="M540,700 L540,780" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<text x="570.0" y="740.0" text-anchor="middle" font-family="Inter" font-size="16" fill="#1e1e1e">ok</text>
+<path d="M660,830 L740,830" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+<path d="M980,830 L1100,830" fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#arrow)" />
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "caroukit",
+  "description": "Open-source carousel generator. Turn your content into PNG slides and PDF with local rendering, a CLI, and Claude Code integration.",
+  "version": "1.2.0",
+  "author": {
+    "name": "Lucas Pinheiro Alves",
+    "url": "https://github.com/lpalvess"
+  },
+  "homepage": "https://github.com/lpalvess/caroukit",
+  "repository": "https://github.com/lpalvess/caroukit",
+  "license": "MIT",
+  "skills": [
+    "."
+  ]
+}

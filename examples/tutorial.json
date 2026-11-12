@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "theme": "dark"
+  },
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Seu primeiro\ncarrossel",
+      "highlight": "primeiro"
+    },
+    {
+      "type": "list",
+      "title": "Prepare o conteúdo",
+      "items": [
+        "Escolha uma ideia central",
+        "Divida o texto em slides",
+        "Use números quando precisar"
+      ]
+    },
+    {
+      "type": "number",
+      "value": "3",
+      "label": "etapas: preparar, gerar e revisar"
+    },
+    {
+      "type": "text",
+      "title": "Confira as imagens",
+      "text": "Abra cada PNG. Leia o texto, confira os créditos opcionais e ajuste o conteúdo quando necessário."
+    },
+    {
+      "type": "cta",
+      "text": "Agora adapte o exemplo",
+      "handle": "CarouKit"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "theme": "light"
+  },
+  "slides": [
+    {
+      "type": "hook",
+      "text": "O que é\ncontraste?",
+      "highlight": "contraste"
+    },
+    {
+      "type": "text",
+      "title": "Texto e fundo",
+      "text": "O contraste ajuda a distinguir o texto do fundo. Observe a leitura no tamanho em que a imagem será vista."
+    },
+    {
+      "type": "list",
+      "title": "Compare 2 versões",
+      "items": [
+        "Texto claro em fundo escuro",
+        "Texto escuro em fundo claro",
+        "Confira ambas no tamanho final"
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Leia cada slide antes de compartilhar.",
+      "author": "Nota deste exemplo",
+      "source": "Exemplo educativo do CarouKit"
+    },
+    {
+      "type": "cta",
+      "text": "Experimente os dois temas",
+      "handle": "CarouKit"
+    }
+  ]
+}
